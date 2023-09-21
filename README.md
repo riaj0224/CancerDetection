@@ -29,12 +29,13 @@ These tools and libraries are essential for data processing, model training, and
 
 To execute the project on your local machine:
 
-1. Ensure all dependencies are installed using `pip install -r requirements.txt`.
+1. Ensure all data is installed using `kaggle competitions download -c histopathologic-cancer-detection`.
 2. Run the Jupyter notebook to walk through the data processing, model training, and prediction stages.
 
 ## :file_folder: Project Structure
 
 The projected is structured as follows:
+```
 ├── train
 │ ├── images
 │ └── labels
@@ -46,6 +47,7 @@ The projected is structured as follows:
 │ └── advanced_model
 ├── tuning_results.csv
 └── README.md
+```
 
 
 - `train/images`: Directory with training images.
